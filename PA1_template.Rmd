@@ -86,6 +86,9 @@ ggplot(steps.per.day2,aes(steps)) +
   scale_color_manual(name = "statistics", values = c(median = "blue", mean = "red"))
 
 ```
+
+The number of rows with missing values is ```r missing```.
+
 The mean number of steps across days after imputing missing values is ```r round(mean.steps2,digits=0) ``` and the median is ```r round(median.steps2,digits=0) ```. Mean and median are now the same.
 
 The variation of both parameters after the imputation is:

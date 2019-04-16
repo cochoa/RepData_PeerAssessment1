@@ -113,6 +113,9 @@ ggplot(steps.per.day2,aes(steps)) +
 ```
 
 ![](PA1_template_files/figure-html/unnamed-chunk-4-1.png)<!-- -->
+
+The number of rows with missing values is ``2304``.
+
 The mean number of steps across days after imputing missing values is ``10766`` and the median is ``10766``. Mean and median are now the same.
 
 The variation of both parameters after the imputation is:
